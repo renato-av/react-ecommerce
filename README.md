@@ -4,7 +4,7 @@ Esta es una aplicación simple de e-commerce creada con React y TypeScript que m
 
 ## Demo
 
-Agrega un enlace a una demo en línea o capturas de pantalla de tu proyecto, si es relevante.
+[Demo](https://renatoav-react-ts-shopping-cart.netlify.app/)
 
 ## Instalación
 
