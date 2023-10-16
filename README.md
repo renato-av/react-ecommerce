@@ -1,23 +1,23 @@
 # React Shop 🛒 - React y Typescript
 
-Esta es una aplicación simple de e-commerce creada con React y TypeScript que muestra productos y permite a los usuarios agregar productos a un carrito de compras. La aplicación utiliza los hooks useContext y useReducer de React para gestionar el estado global del carrito y también hace uso de localStorage para almacenar los datos del carrito de manera persistente.
+This is a simple e-commerce application created with React and TypeScript that displays products and allows users to add products to a shopping cart. The application utilizes the useContext and useReducer hooks of React to manage the global state of the cart and also makes use of localStorage to persistently store cart data.
 
 ## Demo
 
 [Demo](https://renatoav-react-ts-shopping-cart.netlify.app/)
 
-## Instalación
+## Installation
 
-A continuación, se presentan los pasos para instalar y ejecutar tu proyecto en un entorno local.
+Below are the steps to install and run your project in a local environment.
 
-1. **Clonar el Repositorio**:
+1. **Clone the Repository**:
 
     ```bash
     git clone https://github.com/renato-av/react-ecommerce.git
     cd react-ecommerce
     ```
 
-2. **Instalar Dependencias**:
+2. **Install dependencies**:
 
     ```bash
     npm install
@@ -25,7 +25,7 @@ A continuación, se presentan los pasos para instalar y ejecutar tu proyecto en 
     yarn
     ```
 
-3. **Iniciar la Aplicación**:
+3. **Start the Application**:
 
     ```bash
     npm run dev
@@ -33,33 +33,30 @@ A continuación, se presentan los pasos para instalar y ejecutar tu proyecto en 
     yarn dev
     ```
 
-La aplicación estará disponible en `http://localhost:3000` en tu navegador.
+The application will be available at `http://localhost:3000` in your web browser.
 
-## Características
+## Features
 
-Enumera las principales características de tu aplicación de e-commerce, como:
+- Displaying a list of products.
+- Adding products to the shopping cart.
+- Adjusting the quantity of products in the cart.
+- Removing products from the cart.
+- Persistent storage of the cart in `localStorage`.
 
-- Mostrar una lista de productos.
-- Agregar productos al carrito de compras.
-- Ajustar la cantidad de productos en el carrito.
-- Eliminar productos del carrito.
-- Almacenamiento persistente del carrito en `localStorage`.
+## Using useContext and useReducer
 
-## Uso de useContext y useReducer
+This application uses `useContext` and `useReducer` to manage the state of the shopping cart. Contexts are defined in `src/contexts` and are used to provide access to the cart state throughout the application. The  `src/reducers/cart.tsx` file defines the actions and the reducer to manage the shopping cart.
 
-Esta aplicación utiliza `useContext` y `useReducer` para gestionar el estado del carrito de compras. Los contextos se definen en `src/contexts` y se utiliza para proporcionar acceso al estado del carrito en toda la aplicación. El archivo `src/reducers/cart.tsx` define las acciones y el reducer para gestionar el carrito de compras.
-
-Puedes agregar productos al carrito, aumentar o disminuir la cantidad de productos y eliminar productos del carrito a través de las funciones proporcionadas por el contexto.
+You can add products to the cart, increase or decrease the quantity of products, and remove products from the cart through the functions provided by the context.
 
 
-## Almacenamiento persistente con localStorage
+## Persistent Storage with localStorage
 
-Para garantizar que los datos del carrito se mantengan incluso después de cerrar y volver a abrir la aplicación, se utiliza `localStorage`. Los datos del carrito se guardan en `localStorage` cada vez que se realizan cambios en el carrito y se recuperan al cargar la aplicación.
+To ensure that cart data is retained even after closing and reopening the application, `localStorage` is used. Cart data is saved in `localStorage` whenever changes are made to the cart, and it is retrieved upon application load.
 
-## Contribuir
+## Contributing
 
-¡Siéntete libre de contribuir a este proyecto! Puedes abrir problemas, proponer nuevas características o enviar solicitudes de extracción. Cualquier contribución es bienvenida.
-
+Feel free to contribute to this project! You can open issues, suggest new features, or submit pull requests. Any contribution is welcome.
 
 ## Autor
 
