@@ -1,0 +1,48 @@
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.filters label {
+  display: block;
+  text-align: start;
+  width: 100%;
+  max-width: 200px;
+}
+
+.filters .min_price_input {
+  position: relative;
+}
+
+.filters .min_price {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  transform: translateX(-50%);
+  pointer-events: none;
+
+  background-color: #3a3a3a;
+  text-align: center;
+  padding: 2px;
+  border-radius: 20px;
+  min-width: 50px;
+}
+
+.filters select, 
+.filters input {
+  width: 100%;
+}
+
+.filters select {
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background-color: #3a3a3a;
+  color: #fff;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
