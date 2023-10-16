@@ -58,11 +58,7 @@ Para garantizar que los datos del carrito se mantengan incluso después de cerra
 
 ## Contribuir
 
-Invita a otros desarrolladores a contribuir a tu proyecto y proporciona pautas para cómo pueden hacerlo. Por ejemplo:
-
-- Cómo abrir problemas (issues).
-- Cómo proponer nuevas características.
-- Cómo enviar solicitudes de extracción (pull requests).
+¡Siéntete libre de contribuir a este proyecto! Puedes abrir problemas, proponer nuevas características o enviar solicitudes de extracción. Cualquier contribución es bienvenida.
 
 
 ## Autor
